@@ -21,16 +21,13 @@ A brutalist, AMOLED-style Windows utility for advanced window management. Inspir
    git clone https://github.com/YOUR_USERNAME/HELLWINDOW.git
 Install dependencies:
 ```
-
    ```bash
    pip install -r requirements.txt
 Run the application (Administrator rights are required to manage other windows):
 ```
-
    ```bash
 python hellwindow.py
 ```
-
 ## ⌨️ Default Hotkeys
 Ctrl + Alt + H: Capture/Release active window.
 Ctrl + Alt + R: Banish all spirits (reset all windows).
@@ -43,7 +40,6 @@ To build a standalone portable executable:
    ```bash
  pyinstaller --noconsole --onefile --uac-admin --collect-all customtkinter --icon=icon.ico --add-data "icon.png;." --name HELLWINDOW hellwindow.py
  ```
-
 Disclaimer: This tool is intended for personal productivity. Use it wisely.
 
 ## 🩸 Author
