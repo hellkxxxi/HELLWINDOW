@@ -2,7 +2,7 @@
 
 A brutalist, AMOLED-style Windows utility for advanced window management. Inspired by tools like WindowTop, but focused on speed, minimalism, and a dark aesthetic.
 
-![License](https://img.shields.io/github/license/YOUR_USERNAME/HELLWINDOW?color=990000&style=flat-square)
+![License](https://img.shields.io/github/license/hellkxxxi/HELLWINDOW?color=990000&style=flat-square)
 
 ## ⚡ Features
 
