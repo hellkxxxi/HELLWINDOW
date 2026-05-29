@@ -18,13 +18,15 @@ A brutalist, AMOLED-style Windows utility for advanced window management. Inspir
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/YOUR_USERNAME/HELLWINDOW.git
+git clone https://github.com/YOUR_USERNAME/HELLWINDOW.git
+```
 Install dependencies:
-```
+
 ```bash
-   pip install -r requirements.txt
-Run the application (Administrator rights are required to manage other windows):
+pip install -r requirements.txt
 ```
+Run the application (Administrator rights are required to manage other windows):
+
 ```bash
 python hellwindow.py
 ```
