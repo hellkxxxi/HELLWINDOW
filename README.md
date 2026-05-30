@@ -5,10 +5,12 @@
 </p>
 
 <p align="center">
-  <img src="assets/preview.png" alt="HELLWINDOW Preview" width="400">
+  <img src="assets/preview.png" alt="HELLWINDOW Preview" width="402">
 </p>
 
-  disclaimer: this tool is intended for personal productivity. use it wisely.  
+the tool monitors your focus and captures the last active window before you switch to hellwindow
+
+  *disclaimer: this tool is intended for personal productivity. use it wisely.*
   
   ![License](https://img.shields.io/badge/license-MIT-990000?style=flat-square)
 
