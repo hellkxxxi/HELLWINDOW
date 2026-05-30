@@ -6,6 +6,16 @@ A brutalist, AMOLED-style Windows utility for advanced window management. Inspir
 
 Disclaimer: This tool is intended for personal productivity. Use it wisely.
 
+<p align="center">
+  <img src="assets/preview.png" alt="HELLWINDOW Preview" width="400">
+</p>
+
+<h1 align="center">⛧ HELLWINDOW ⛧</h1>
+
+<p align="center">
+  A brutalist, AMOLED-style Windows utility for advanced window management.
+</p>
+
 ## ⚡ Features
 
 - **Ghost Mode**: Make any window non-clickable (click-through). Perfect for tracing or keeping a reference visible while you work.
