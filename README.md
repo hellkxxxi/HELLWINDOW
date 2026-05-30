@@ -4,6 +4,8 @@ A brutalist, AMOLED-style Windows utility for advanced window management. Inspir
 
 ![License](https://img.shields.io/badge/license-MIT-990000?style=flat-square)
 
+Disclaimer: This tool is intended for personal productivity. Use it wisely.
+
 ## ⚡ Features
 
 - **Ghost Mode**: Make any window non-clickable (click-through). Perfect for tracing or keeping a reference visible while you work.
@@ -42,7 +44,7 @@ To build a standalone portable executable:
 ```bash
  pyinstaller --noconsole --onefile --uac-admin --collect-all customtkinter --icon=icon.ico --add-data "icon.png;." --name HELLWINDOW hellwindow.py
  ```
-Disclaimer: This tool is intended for personal productivity. Use it wisely.
+
 
 ## 🩸 Author
 Created by **hellkai**
