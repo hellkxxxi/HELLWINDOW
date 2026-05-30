@@ -15,7 +15,7 @@
 ## ⚡ Features
 
 - **Ghost Mode**: Make any window non-clickable (click-through). Perfect for tracing or keeping a reference visible while you work.
-- **Transparency Control**: Smoothly adjust any window's opacity from 10% to 100%.
+- **Transparency Control**: Smoothly adjust any window's opacity from 7% to 100%.
 - **Always on Top**: Pin any window above all others with a single hotkey.
 - **Spirit List**: Manage all transformed windows in a compact, ritualistic UI.
 - **Hotkey Recording**: Rebind your keys on the fly by simply clicking the hotkey button.
@@ -40,7 +40,7 @@ python hellwindow.py
 ```
 ## ⌨️ Default Hotkeys
 - `Ctrl+Alt+H`: Capture/Release active window.
-- `Ctrl+Alt+H`: Banish all spirits (reset all windows).
+- `Ctrl+Alt+R`: Banish all spirits (reset all windows).
 
 ## 📦 Building EXE
 To build a standalone portable executable:
@@ -59,3 +59,4 @@ pip install pyinstaller
 
 ## 🩸 Author
 Created by **hellkai**
+[Telegram](t.me/k41h311)
