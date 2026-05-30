@@ -1,15 +1,15 @@
-<p align="center">
-  <img src="assets/preview.png" alt="HELLWINDOW Preview" width="400">
-</p>
-
 <h1 align="center">⛧ HELLWINDOW ⛧</h1>
 
 <p align="center">
   A brutalist, AMOLED-style Windows utility for advanced window management. Inspired by tools like WindowTop, but focused on speed, minimalism, and a dark aesthetic.
   
+  Disclaimer: This tool is intended for personal productivity. Use it wisely.  
+  
   ![License](https://img.shields.io/badge/license-MIT-990000?style=flat-square)
+</p>
 
-  Disclaimer: This tool is intended for personal productivity. Use it wisely.
+<p align="center">
+  <img src="assets/preview.png" alt="HELLWINDOW Preview" width="400">
 </p>
 
 ## ⚡ Features
