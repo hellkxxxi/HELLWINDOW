@@ -39,12 +39,17 @@ Run the application (Administrator rights are required to manage other windows):
 python hellwindow.py
 ```
 ## ⌨️ Default Hotkeys
-`Ctrl+Alt+H`: Capture/Release active window.
-`Ctrl+Alt+H`: Banish all spirits (reset all windows).
+- `Ctrl+Alt+H`: Capture/Release active window.
+- `Ctrl+Alt+H`: Banish all spirits (reset all windows).
 
 ## 📦 Building EXE
 To build a standalone portable executable:
-1. Install PyInstaller: pip install pyinstaller
+1. Install PyInstaller:
+
+```bash
+pip install pyinstaller
+```
+
 2. Run the build script:
 
 ```bash
