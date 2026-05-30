@@ -2,15 +2,15 @@
 
 <p align="center">
   A brutalist, AMOLED-style Windows utility for advanced window management. Inspired by tools like WindowTop, but focused on speed, minimalism, and a dark aesthetic.
-  
-  Disclaimer: This tool is intended for personal productivity. Use it wisely.  
-  
-  ![License](https://img.shields.io/badge/license-MIT-990000?style=flat-square)
 </p>
 
 <p align="center">
   <img src="assets/preview.png" alt="HELLWINDOW Preview" width="400">
 </p>
+
+  Disclaimer: This tool is intended for personal productivity. Use it wisely.  
+  
+  ![License](https://img.shields.io/badge/license-MIT-990000?style=flat-square)
 
 ## ⚡ Features
 
