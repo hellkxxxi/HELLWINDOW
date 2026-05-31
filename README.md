@@ -1,7 +1,7 @@
 <h1 align="center">⛧ HELLWINDOW ⛧</h1>
 
 <p align="center">
-  a brutalist, amoled-style windows utility for advanced window management. inspired by tools like WindowTop, but focused on speed, minimalism, and a dark aesthetic.
+  a brutalist, amoled-style windows utility for advanced window management. inspired by tools like WindowTop, but focused on speed, minimalism, and a dark aesthetic. made for those who prefer ritualistic minimalism and total control over their workspace.
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ pip install pyinstaller
 2. run the build script:
 
 ```bash
- pyinstaller --noconsole --onefile --uac-admin --collect-all customtkinter --icon=icon.ico --add-data "icon.png;." --name HELLWINDOW hellwindow.py
+pyinstaller --noconsole --onefile --uac-admin --collect-all customtkinter --icon=icon.ico --add-data "icon.png;." --add-data "icon.ico;." --name HELLWINDOW hellwindow.py
  ```
  
 ## ⛧ warning
