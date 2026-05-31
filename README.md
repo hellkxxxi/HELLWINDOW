@@ -12,7 +12,11 @@ the tool monitors your focus and captures the last active window before you swit
 
   *disclaimer: this tool is intended for personal productivity. use it wisely.*
   
-  ![License](https://img.shields.io/badge/license-MIT-990000?style=flat-square)
+  <p align="center">
+  <img src="https://img.shields.io/github/v/release/hellkxxxi/HELLWINDOW?color=990000&label=version&style=flat-square">
+  <img src="https://img.shields.io/github/license/hellkxxxi/HELLWINDOW?color=990000&style=flat-square">
+  <img src="https://img.shields.io/github/downloads/hellkxxxi/HELLWINDOW/total?color=990000&style=flat-square">
+</p>
 
 ## ⛧ how it works
 hellwindow manipulates the deep windows api to grant you powers over any active window:
@@ -70,6 +74,12 @@ pyinstaller --noconsole --onefile --uac-admin --collect-all customtkinter --icon
  
 ## ⛧ warning
 antivirus software may flag the .exe as a false positive due to keyboard hooks and pyinstaller packaging. this is normal for low-level system utilities.
+
+## ⛧ tech stack
+- **customtkinter**: for the amoled interface.
+- **pywin32**: for deep windows api integration.
+- **keyboard**: for global ritual hooks.
+- **psutil**: for process soul harvesting.
 
 ## ⛧ author
 created by **hellkai**
