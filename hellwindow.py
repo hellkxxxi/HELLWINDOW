@@ -56,7 +56,7 @@ class SizeRitual(ctk.CTkToplevel):
         self.h_entry.pack(pady=1)
         self.h_entry.insert(0, "720")
 
-        self.btn_save = ctk.CTkButton(self, text="SAVE", width=180, height=28, corner_radius=6, font=("Consolas", 12, "bold"), fg_color=RED_MAIN, hover_color=RED_HOVER, command=self.apply)
+        self.btn_save = ctk.CTkButton(self, text="SAVE", width=180, height=32, corner_radius=6, font=("Consolas", 12, "bold"), fg_color=RED_MAIN, hover_color=RED_HOVER, command=self.apply)
         self.btn_save.pack(pady=15)
 
     def apply(self):
@@ -185,10 +185,10 @@ class HellWindow(ctk.CTk):
         self.withdraw()
 
     def create_tray_icon(self):
-        def on_clicked(icon, item):
-            self.after(0, self.deiconify)
+        def manifest(icon, item):
+            self.after(0, self.bring_to_front)
         
-        def on_quit():
+        def on_quit(icon, item):
             self.save_config()
             self.tray.stop()
             self.destroy()
@@ -198,11 +198,18 @@ class HellWindow(ctk.CTk):
         except: img = Image.new('RGB', (64, 64), color=RED_MAIN)
 
         self.tray = pystray.Icon("hellwindow", img, "HELLWINDOW", menu=pystray.Menu(
-            pystray.MenuItem("Show", on_clicked),
+            pystray.MenuItem("Show", manifest),
             pystray.MenuItem("Exit", on_quit)
         ))
-        self.tray.on_activate = on_clicked
         threading.Thread(target=self.tray.run, daemon=True).start()
+
+    def bring_to_front(self):
+        self.deiconify()
+        self.lift()
+        self.focus_force()
+        self.attributes("-topmost", True)
+        if not self.check_top.get():
+            self.after(500, lambda: self.attributes("-topmost", False))
 
     def open_size_ritual(self):
         if self.last_target_hwnd:
