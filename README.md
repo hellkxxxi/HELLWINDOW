@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/preview.png" alt="HELLWINDOW Preview" width="402">
+  <img src="assets/preview v2.png" alt="HELLWINDOW Preview" width="402">
 </p>
 
 the tool monitors your focus and captures the last active window before you switch to hellwindow
@@ -14,14 +14,28 @@ the tool monitors your focus and captures the last active window before you swit
   
   ![License](https://img.shields.io/badge/license-MIT-990000?style=flat-square)
 
-## ⛧ features
-- **ghost mode**: make any window non-clickable (click-through).
-- **transparency**: adjust opacity from 7% to 100%.
-- **always on top**: pin target window above everything else.
-- **spirit list**: manage active transformations in a micro-ui.
-- **hotkey recording**: rebind keys by clicking on them.
-- **amoled design**: pure black, deep blood-red accents.
+## ⛧ how it works
+hellwindow manipulates the deep windows api to grant you powers over any active window:
+- **ghost mode**: injects `WS_EX_TRANSPARENT` style, making the window a "spirit" that your mouse ignores. clicks pass through it to whatever is behind.
+- **transparency**: controls the alpha channel of the window layer (7% to 100%).
+- **always on top**: forces the window to stay at the top of the z-order (`HWND_TOPMOST`).
 - **auto-save**: all your preferences and hotkeys are saved to `config.json`.
+
+## ⛧ quick rituals (tools)
+- **center**: calculates your screen resolution and snaps the window to the dead center.
+- **hide**: completely removes the window from the screen and taskbar. it stays alive but invisible.
+- **720p**: forces the window to exactly 1280x720 resolution.
+- **kill**: instantly terminates the process. no confirmation, no mercy.
+
+## ⛧ spirit list
+this is your necronomicon. every window you transform is tracked here:
+- use **reveal** to bring back windows lost in the **hide** ritual.
+- click **X** to release a window and restore its original state.
+- the tool monitors your focus and automatically targets the last active window.
+
+## ⛧ hotkeys
+- **toggle**: click the button to record a new key combination.
+- **reset**: clear all active spirits and return them to the mortal realm.
 
 ## ⛧ installation
 1. clone the ritual:
