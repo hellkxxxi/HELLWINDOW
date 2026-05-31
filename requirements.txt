@@ -2,3 +2,7 @@ customtkinter
 pywin32
 keyboard
 psutil
+pycaw
+comtypes
+pystray
+Pillow
