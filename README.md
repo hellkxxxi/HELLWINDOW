@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/preview v2.png" alt="HELLWINDOW Preview" width="402">
+  <img src="assets/preview v1.2.png" alt="HELLWINDOW Preview" width="402">
 </p>
 
 the tool monitors your focus and captures the last active window before you switch to hellwindow
@@ -26,9 +26,10 @@ hellwindow manipulates the deep windows api to grant you powers over any active 
 - **auto-save**: all your preferences and hotkeys are saved to `config.json`.
 
 ## ⛧ quick rituals (tools)
-- **center**: calculates your screen resolution and snaps the window to the dead center.
-- **hide**: completely removes the window from the screen and taskbar. it stays alive but invisible.
-- **720p**: forces the window to exactly 1280x720 resolution.
+- **center**: snaps the targeted window to the screen's dead center.
+- **hide**: removes the window from sight and taskbar. tagged as `[HIDDEN]` in the list.
+- **mute**: silences the targeted process's audio stream.
+- **size**: opens a themed ritual dialog to define custom window dimensions (width/height).
 - **kill**: instantly terminates the process. no confirmation, no mercy.
 
 ## ⛧ spirit list
@@ -60,10 +61,10 @@ python hellwindow.py
 ## ⛧ building exe
 to create a standalone portable executable:
 
-1. install pyinstaller:
+1. install dependencies:
 
 ```bash
-pip install pyinstaller
+pip install customtkinter pywin32 keyboard psutil pycaw comtypes pystray Pillow
 ```
 
 2. run the build script:
@@ -80,6 +81,8 @@ antivirus software may flag the .exe as a false positive due to keyboard hooks a
 - **pywin32**: for deep windows api integration.
 - **keyboard**: for global ritual hooks.
 - **psutil**: for process soul harvesting.
+- **pycaw**: for audio session manipulation.
+- **pystray & Pillow**: for system tray manifestation.
 
 ## ⛧ author
 created by **hellkai**
