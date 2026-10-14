@@ -86,4 +86,3 @@ antivirus software may flag the .exe as a false positive due to keyboard hooks a
 
 ## ⛧ author
 created by **hellkai**
-[telegram](https://t.me/k41h311)
