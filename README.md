@@ -85,4 +85,4 @@ antivirus software may flag the .exe as a false positive due to keyboard hooks a
 - **pystray & Pillow**: for system tray manifestation.
 
 ## ⛧ author
-created by **hellkai**
+created by **hellkai \\ hellkxxxi**
